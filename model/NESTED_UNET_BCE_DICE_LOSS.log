@@ -1,0 +1,613 @@
+SEED: 1
+LEARNING_RATE: 1.00E-04
+DEVICE: cuda
+MODEL: NESTED_UNET
+LOSS: BCE_DICE_LOSS
+BATCH_SIZE: 18
+NUM_EPOCHS: 50
+NUM_WORKERS: 1
+IMAGE_HEIGHT: 256
+IMAGE_WIDTH: 256
+LOAD_MODEL: False
+----------
+Configuring...
+Training...
+----------
+Epoch 1/50
+Training loss: 0.7200535216669398
+Validation loss: 0.6706163063645363
+Checking validation accuracy...
+Accuracy   0.82517
+F1         0.69937
+Jaccard    0.57802
+Dice       0.69937
+Recall     0.67170
+Precision  0.80836
+Validation Dice increases: 0.0 -> 0.6993735256299181
+Saving checkpoint...
+----------
+Epoch 2/50
+Training loss: 0.632406117409233
+Validation loss: 0.6023061648011208
+Checking validation accuracy...
+Accuracy   0.84579
+F1         0.71576
+Jaccard    0.60228
+Dice       0.71576
+Recall     0.72578
+Precision  0.80146
+Validation Dice increases: 0.6993735256299181 -> 0.7157567697314553
+Saving checkpoint...
+----------
+Epoch 3/50
+Training loss: 0.5859772771831573
+Validation loss: 0.5659037679433823
+Checking validation accuracy...
+Accuracy   0.86755
+F1         0.74512
+Jaccard    0.63628
+Dice       0.74512
+Recall     0.76501
+Precision  0.79721
+Validation Dice increases: 0.7157567697314553 -> 0.7451182625904137
+Saving checkpoint...
+----------
+Epoch 4/50
+Training loss: 0.5562264977946995
+Validation loss: 0.524764796718955
+Checking validation accuracy...
+Accuracy   0.86393
+F1         0.76020
+Jaccard    0.65168
+Dice       0.76020
+Recall     0.74843
+Precision  0.84030
+Validation Dice increases: 0.7451182625904137 -> 0.760197077725116
+Saving checkpoint...
+----------
+Epoch 5/50
+Training loss: 0.526977077243835
+Validation loss: 0.5249852035194635
+Checking validation accuracy...
+Accuracy   0.85107
+F1         0.74549
+Jaccard    0.63669
+Dice       0.74549
+Recall     0.73140
+Precision  0.84569
+----------
+Epoch 6/50
+Training loss: 0.4983636811962278
+Validation loss: 0.4917880594730377
+Checking validation accuracy...
+Accuracy   0.86593
+F1         0.76291
+Jaccard    0.65736
+Dice       0.76291
+Recall     0.75775
+Precision  0.84284
+Validation Dice increases: 0.760197077725116 -> 0.7629067723271427
+Saving checkpoint...
+----------
+Epoch 7/50
+Training loss: 0.4811678747023184
+Validation loss: 0.4884055554866791
+Checking validation accuracy...
+Accuracy   0.87033
+F1         0.75314
+Jaccard    0.64838
+Dice       0.75314
+Recall     0.76745
+Precision  0.81219
+----------
+Epoch 8/50
+Training loss: 0.462092011932313
+Validation loss: 0.46980532445013523
+Checking validation accuracy...
+Accuracy   0.87689
+F1         0.77145
+Jaccard    0.67002
+Dice       0.77145
+Recall     0.78706
+Precision  0.82979
+Validation Dice increases: 0.7629067723271427 -> 0.7714547426380196
+Saving checkpoint...
+----------
+Epoch 9/50
+Training loss: 0.45645612313991457
+Validation loss: 0.47410760819911957
+Checking validation accuracy...
+Accuracy   0.86259
+F1         0.76957
+Jaccard    0.66552
+Dice       0.76957
+Recall     0.73510
+Precision  0.88287
+----------
+Epoch 10/50
+Training loss: 0.43822161395718734
+Validation loss: 0.42061050049960613
+Checking validation accuracy...
+Accuracy   0.89131
+F1         0.79159
+Jaccard    0.69301
+Dice       0.79159
+Recall     0.82952
+Precision  0.81634
+Validation Dice increases: 0.7714547426380196 -> 0.7915881533965202
+Saving checkpoint...
+----------
+Epoch 11/50
+Training loss: 0.4327747699782604
+Validation loss: 0.4349475782364607
+Checking validation accuracy...
+Accuracy   0.88993
+F1         0.77813
+Jaccard    0.67629
+Dice       0.77813
+Recall     0.84323
+Precision  0.78120
+----------
+Epoch 12/50
+Training loss: 0.42556766754998937
+Validation loss: 0.44440436363220215
+Checking validation accuracy...
+Accuracy   0.87838
+F1         0.77596
+Jaccard    0.67126
+Dice       0.77596
+Recall     0.80676
+Precision  0.81290
+----------
+Epoch 13/50
+Training loss: 0.4212365055412758
+Validation loss: 0.40217919554561377
+Checking validation accuracy...
+Accuracy   0.89661
+F1         0.79761
+Jaccard    0.70090
+Dice       0.79761
+Recall     0.83455
+Precision  0.82013
+Validation Dice increases: 0.7915881533965202 -> 0.7976115183750357
+Saving checkpoint...
+----------
+Epoch 14/50
+Training loss: 0.4099240694928357
+Validation loss: 0.4599977992475033
+Checking validation accuracy...
+Accuracy   0.86421
+F1         0.77332
+Jaccard    0.66888
+Dice       0.77332
+Recall     0.74531
+Precision  0.87815
+----------
+Epoch 15/50
+Training loss: 0.40035261072981077
+Validation loss: 0.4023326374590397
+Checking validation accuracy...
+Accuracy   0.89107
+F1         0.79620
+Jaccard    0.69723
+Dice       0.79620
+Recall     0.80927
+Precision  0.84256
+----------
+Epoch 16/50
+Training loss: 0.40653207675209196
+Validation loss: 0.4042814765125513
+Checking validation accuracy...
+Accuracy   0.89047
+F1         0.79937
+Jaccard    0.69816
+Dice       0.79937
+Recall     0.82689
+Precision  0.82392
+Validation Dice increases: 0.7976115183750357 -> 0.7993658587487438
+Saving checkpoint...
+----------
+Epoch 17/50
+Training loss: 0.39247450044774634
+Validation loss: 0.40113749355077744
+Checking validation accuracy...
+Accuracy   0.89352
+F1         0.79158
+Jaccard    0.69238
+Dice       0.79158
+Recall     0.81458
+Precision  0.82998
+----------
+Epoch 18/50
+Training loss: 0.38973635047908844
+Validation loss: 0.4000377915799618
+Checking validation accuracy...
+Accuracy   0.89117
+F1         0.80292
+Jaccard    0.70376
+Dice       0.80292
+Recall     0.80797
+Precision  0.85140
+Validation Dice increases: 0.7993658587487438 -> 0.802918176358278
+Saving checkpoint...
+----------
+Epoch 19/50
+Training loss: 0.3836097847523652
+Validation loss: 0.3800913989543915
+Checking validation accuracy...
+Accuracy   0.90183
+F1         0.80770
+Jaccard    0.70996
+Dice       0.80770
+Recall     0.83217
+Precision  0.83194
+Validation Dice increases: 0.802918176358278 -> 0.8077035497705599
+Saving checkpoint...
+----------
+Epoch 20/50
+Training loss: 0.377457458789893
+Validation loss: 0.37741390243172646
+Checking validation accuracy...
+Accuracy   0.89839
+F1         0.81060
+Jaccard    0.71444
+Dice       0.81060
+Recall     0.83712
+Precision  0.83823
+Validation Dice increases: 0.8077035497705599 -> 0.8106039127077377
+Saving checkpoint...
+----------
+Epoch 21/50
+Training loss: 0.37026688069339814
+Validation loss: 0.38388097658753395
+Checking validation accuracy...
+Accuracy   0.89869
+F1         0.80551
+Jaccard    0.70883
+Dice       0.80551
+Recall     0.83168
+Precision  0.83459
+----------
+Epoch 22/50
+Training loss: 0.3760735015934846
+Validation loss: 0.377192878164351
+Checking validation accuracy...
+Accuracy   0.90223
+F1         0.80595
+Jaccard    0.70935
+Dice       0.80595
+Recall     0.83325
+Precision  0.83132
+----------
+Epoch 23/50
+Training loss: 0.37441196533169335
+Validation loss: 0.3846346829086542
+Checking validation accuracy...
+Accuracy   0.89803
+F1         0.80372
+Jaccard    0.70804
+Dice       0.80372
+Recall     0.84304
+Precision  0.82411
+----------
+Epoch 24/50
+Training loss: 0.3762019100620991
+Validation loss: 0.3759938608855009
+Checking validation accuracy...
+Accuracy   0.89610
+F1         0.81140
+Jaccard    0.71503
+Dice       0.81140
+Recall     0.81691
+Precision  0.86319
+Validation Dice increases: 0.8106039127077377 -> 0.8113985976769188
+Saving checkpoint...
+----------
+Epoch 25/50
+Training loss: 0.3744237100280176
+Validation loss: 0.3776457328349352
+Checking validation accuracy...
+Accuracy   0.90044
+F1         0.80780
+Jaccard    0.71128
+Dice       0.80780
+Recall     0.84152
+Precision  0.82836
+----------
+Epoch 26/50
+Training loss: 0.36243758004481397
+Validation loss: 0.3725973507389426
+Checking validation accuracy...
+Accuracy   0.90368
+F1         0.81228
+Jaccard    0.71779
+Dice       0.81228
+Recall     0.85687
+Precision  0.82158
+Validation Dice increases: 0.8113985976769188 -> 0.8122847801453988
+Saving checkpoint...
+----------
+Epoch 27/50
+Training loss: 0.360961096141282
+Validation loss: 0.36845846101641655
+Checking validation accuracy...
+Accuracy   0.90224
+F1         0.81478
+Jaccard    0.71920
+Dice       0.81478
+Recall     0.83374
+Precision  0.84686
+Validation Dice increases: 0.8122847801453988 -> 0.8147767372201941
+Saving checkpoint...
+----------
+Epoch 28/50
+Training loss: 0.3575752429136141
+Validation loss: 0.3579438319429755
+Checking validation accuracy...
+Accuracy   0.90709
+F1         0.82091
+Jaccard    0.72689
+Dice       0.82091
+Recall     0.85256
+Precision  0.83736
+Validation Dice increases: 0.8147767372201941 -> 0.8209083281293069
+Saving checkpoint...
+----------
+Epoch 29/50
+Training loss: 0.35596066103206847
+Validation loss: 0.36343318596482277
+Checking validation accuracy...
+Accuracy   0.90475
+F1         0.81752
+Jaccard    0.72229
+Dice       0.81752
+Recall     0.85243
+Precision  0.82856
+----------
+Epoch 30/50
+Training loss: 0.35946238604117564
+Validation loss: 0.367549043148756
+Checking validation accuracy...
+Accuracy   0.90288
+F1         0.81276
+Jaccard    0.71883
+Dice       0.81276
+Recall     0.83692
+Precision  0.84342
+----------
+Epoch 31/50
+Training loss: 0.3499217636472597
+Validation loss: 0.35518019180744886
+Checking validation accuracy...
+Accuracy   0.90644
+F1         0.82425
+Jaccard    0.73029
+Dice       0.82425
+Recall     0.84897
+Precision  0.84310
+Validation Dice increases: 0.8209083281293069 -> 0.8242513331658873
+Saving checkpoint...
+----------
+Epoch 32/50
+Training loss: 0.35574084426474384
+Validation loss: 0.3666694303974509
+Checking validation accuracy...
+Accuracy   0.90191
+F1         0.81759
+Jaccard    0.72358
+Dice       0.81759
+Recall     0.83061
+Precision  0.85236
+----------
+Epoch 33/50
+Training loss: 0.35133387383044234
+Validation loss: 0.3645012741908431
+Checking validation accuracy...
+Accuracy   0.90442
+F1         0.81959
+Jaccard    0.72506
+Dice       0.81959
+Recall     0.83656
+Precision  0.85194
+----------
+Epoch 34/50
+Training loss: 0.35292750831664077
+Validation loss: 0.3621393460780382
+Checking validation accuracy...
+Accuracy   0.90744
+F1         0.82315
+Jaccard    0.72938
+Dice       0.82315
+Recall     0.86550
+Precision  0.82847
+----------
+Epoch 35/50
+Training loss: 0.3487069325184259
+Validation loss: 0.3655855432152748
+Checking validation accuracy...
+Accuracy   0.90397
+F1         0.81494
+Jaccard    0.71946
+Dice       0.81494
+Recall     0.82244
+Precision  0.85961
+----------
+Epoch 36/50
+Training loss: 0.339626383359038
+Validation loss: 0.3614779058843851
+Checking validation accuracy...
+Accuracy   0.90623
+F1         0.82095
+Jaccard    0.72877
+Dice       0.82095
+Recall     0.86315
+Precision  0.82643
+----------
+Epoch 37/50
+Training loss: 0.34035255859686636
+Validation loss: 0.36261043418198824
+Checking validation accuracy...
+Accuracy   0.90358
+F1         0.81645
+Jaccard    0.72140
+Dice       0.81645
+Recall     0.83325
+Precision  0.84939
+----------
+Epoch 38/50
+Training loss: 0.3440310999633759
+Validation loss: 0.3676588675007224
+Checking validation accuracy...
+Accuracy   0.90352
+F1         0.81330
+Jaccard    0.71919
+Dice       0.81330
+Recall     0.84207
+Precision  0.83433
+----------
+Epoch 39/50
+Training loss: 0.3444004406140545
+Validation loss: 0.35544927697628736
+Checking validation accuracy...
+Accuracy   0.90776
+F1         0.82567
+Jaccard    0.73385
+Dice       0.82567
+Recall     0.84644
+Precision  0.85221
+Validation Dice increases: 0.8242513331658873 -> 0.8256673541128434
+Saving checkpoint...
+----------
+Epoch 40/50
+Training loss: 0.3427505388738602
+Validation loss: 0.3652862096205354
+Checking validation accuracy...
+Accuracy   0.90742
+F1         0.82092
+Jaccard    0.73145
+Dice       0.82092
+Recall     0.85983
+Precision  0.83355
+----------
+Epoch 41/50
+Training loss: 0.33849098269395
+Validation loss: 0.3571584327146411
+Checking validation accuracy...
+Accuracy   0.90791
+F1         0.82267
+Jaccard    0.73094
+Dice       0.82267
+Recall     0.86074
+Precision  0.82688
+----------
+Epoch 42/50
+Training loss: 0.33566108181720644
+Validation loss: 0.36443702410906553
+Checking validation accuracy...
+Accuracy   0.90740
+F1         0.81876
+Jaccard    0.72610
+Dice       0.81876
+Recall     0.85840
+Precision  0.82856
+----------
+Epoch 43/50
+Training loss: 0.334415438958979
+Validation loss: 0.3427675860002637
+Checking validation accuracy...
+Accuracy   0.91097
+F1         0.82890
+Jaccard    0.73764
+Dice       0.82890
+Recall     0.85135
+Precision  0.84942
+Validation Dice increases: 0.8256673541128434 -> 0.8288966132710094
+Saving checkpoint...
+----------
+Epoch 44/50
+Training loss: 0.3308484871087112
+Validation loss: 0.3532579280436039
+Checking validation accuracy...
+Accuracy   0.91201
+F1         0.82446
+Jaccard    0.73245
+Dice       0.82446
+Recall     0.88027
+Precision  0.81412
+----------
+Epoch 45/50
+Training loss: 0.3300776868823945
+Validation loss: 0.34464381355792284
+Checking validation accuracy...
+Accuracy   0.91296
+F1         0.83109
+Jaccard    0.74144
+Dice       0.83109
+Recall     0.87756
+Precision  0.82806
+Validation Dice increases: 0.8288966132710094 -> 0.8310879478540661
+Saving checkpoint...
+----------
+Epoch 46/50
+Training loss: 0.3353923271725497
+Validation loss: 0.34802439622581005
+Checking validation accuracy...
+Accuracy   0.90950
+F1         0.82316
+Jaccard    0.73143
+Dice       0.82316
+Recall     0.85012
+Precision  0.84502
+----------
+Epoch 47/50
+Training loss: 0.32795792782869865
+Validation loss: 0.36870757676661015
+Checking validation accuracy...
+Accuracy   0.90767
+F1         0.81809
+Jaccard    0.72623
+Dice       0.81809
+Recall     0.85910
+Precision  0.82986
+----------
+Epoch 48/50
+Training loss: 0.33145346674393483
+Validation loss: 0.35568168573081493
+Checking validation accuracy...
+Accuracy   0.90667
+F1         0.82060
+Jaccard    0.72816
+Dice       0.82060
+Recall     0.84096
+Precision  0.84720
+----------
+Epoch 49/50
+Training loss: 0.33331111495889076
+Validation loss: 0.3514223247766495
+Checking validation accuracy...
+Accuracy   0.91071
+F1         0.82252
+Jaccard    0.73269
+Dice       0.82252
+Recall     0.86778
+Precision  0.82840
+----------
+Epoch 50/50
+Training loss: 0.32648257324545404
+Validation loss: 0.34543945640325546
+Checking validation accuracy...
+Accuracy   0.90823
+F1         0.82684
+Jaccard    0.73721
+Dice       0.82684
+Recall     0.84746
+Precision  0.85506
+----------
+Saving all train and validation accuracies...
+Testing...
+Accuracy   0.90021
+F1         0.80129
+Jaccard    0.70917
+Dice       0.80129
+Recall     0.81611
+Precision  0.83411
